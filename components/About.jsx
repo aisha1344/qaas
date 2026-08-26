@@ -2,7 +2,7 @@ import { Cpu, Server, Terminal, Workflow } from "lucide-react";
 
 export default function About() {
   return (
-    <section className="w-full bg-[#fcfdfd] py-20">
+    <section className="w-full bg-slate-50 py-20">
       <div className="w-5/6 mx-auto">
         
         {/* --- SECTION HEADER --- */}

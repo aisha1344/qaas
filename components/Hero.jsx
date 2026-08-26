@@ -4,11 +4,11 @@ import { ArrowUpRight, Globe, Star, TrendingUp, Sparkles } from "lucide-react";
 import mareey from "../public/marey.png"
 export default function HeroSection() {
   return (
-    <section className="w-full bg-[#fcfdfd] py-8 md:py-10">
+    <section className="w-full bg-slate-50 py-8 md:py-10">
       <div className="w-5/6 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 ">
         
         {/* --- LEFT COLUMN: COPY & CTA --- */}
-        <div className="lg:col-span-6 space-y-8">
+        <div className="lg:col-span-6 space-y-8 md:space-x-16">
           {/* Eyebrow badge */}
           <span className="text-xs  font-semibold tracking-wider text-emerald-800 uppercase">
             ENGINEERING & AUTOMATION
@@ -16,10 +16,10 @@ export default function HeroSection() {
 
         {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-normal text-slate-950 tracking-tight leading-[1.1] mt-4 md:mt-8">
-            Build smart software & <br />
-            <span className="font-serif italic font-light text-slate-900">
-              embedded devices
-            </span>
+            Build smart software & <span className="font-serif italic font-light text-slate-900">
+               embedded devices
+            </span
+            >
           </h1>
 
           {/* Body Subtext */}
@@ -96,6 +96,7 @@ export default function HeroSection() {
             </div>
 
             <div className="relative z-10 space-y-4">
+              
               <span className="text-base font-semibold text-slate-800">
                 Active Restaurants
               </span>
@@ -115,7 +116,9 @@ export default function HeroSection() {
                 </div>
 
                 <button className="w-9 h-9 rounded-full bg-[#1b3b36] text-white flex items-center justify-center hover:scale-105 transition-transform">
+                  <Link href='https://maarey.com/' target="_blank">
                   <ArrowUpRight className="w-4 h-4" />
+                  </Link>
                 </button>
               </div>
             </div>

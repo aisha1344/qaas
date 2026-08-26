@@ -2,7 +2,7 @@ import { ArrowUpRight, Cpu, ShieldCheck, Zap } from "lucide-react";
 
 export default function Services() {
   return (
-    <section className="w-full bg-[#fcfdfd] py-20 border-t border-slate-100" id="services">
+    <section className="w-full bg-slate-50 py-20 border-t border-slate-100" id="services">
       <div className="w-5/6 mx-auto">
         
         {/* --- SECTION HEADER --- */}

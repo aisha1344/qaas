@@ -5,7 +5,7 @@ import kiosk from "../public/kiosk.png"
 import logo from "../public/logo.png"
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#fcfdfd] pt-12 pb-8 border-t border-slate-100">
+    <footer className="w-full bg-slate-50 pt-12 pb-8 border-t border-slate-100">
       <div className="w-5/6 mx-auto space-y-20">
         
         {/* --- TOP CTA BANNER CARD --- */}

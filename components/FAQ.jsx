@@ -34,7 +34,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="w-full bg-[#fcfdfd] py-24 border-t border-slate-100">
+    <section id="faq" className="w-full bg-slate-50 py-24 border-t border-slate-100">
       <div className="w-5/6 mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         
         {/* --- LEFT COLUMN: HEADINGS --- */}

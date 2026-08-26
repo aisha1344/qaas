@@ -5,16 +5,16 @@ import logo from "../public/logo.png";
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full  bg-[#fcfdfd] backdrop-blur-md border-b border-slate-100/80 transition-all">
+    <header className="sticky top-0 z-50 w-full  bg-[#fcfdfd] backdrop-blur-md border-b border-slate-100/80 transition-all ">
       {/* --- TOP ANNOUNCEMENT BANNER --- */}
-      <div className="w-full bg-[#0d4c4e] text-white px-4 py-2 text-center text-xs flex items-center justify-around gap-2">
+      {/* <div className="w-full bg-[#0d4c4e] text-white px-4 py-2 text-center text-xs flex items-center justify-around gap-2 rounded-tl-full rounded-br-full">
         <span className="font-semibold px-2 py-0.5 rounded-full bg-white/10 text-[11px]">
           New Release      <ArrowRight className="w-3.5 h-3.5 inline-block opacity-80" />
         </span>
         <span className="font-light">
           Mareey Kiosk v1.0 Released — Book an interactive demo for your restaurant today
         </span>
-      </div>
+      </div> */}
 
       {/* --- MAIN NAVIGATION BAR --- */}
       <div className="w-5/6 mx-auto flex justify-between items-center py-3">
@@ -28,7 +28,7 @@ export default function Navbar() {
           <Link href="/" className="hover:text-[#0d4c4e] transition-colors">
             Home
           </Link>
-          <Link href="#services" className="hover:text-[#0d4c4e] transition-colors">
+          <Link href="/services" className="hover:text-[#0d4c4e] transition-colors">
             Services
           </Link>
           <Link href="#faq" className="hover:text-[#0d4c4e] transition-colors">

@@ -30,7 +30,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#fcfdfd] text-slate-800 pt-12 pb-24 px-4">
+    <main className="min-h-screen bg-slate-50 text-slate-800 pt-12 pb-24 px-4">
       <div className="max-w-6xl mx-auto">
         
         {/* --- PAGE HEADER --- */}
