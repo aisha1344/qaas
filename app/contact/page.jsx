@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -35,7 +35,7 @@ export default function ContactPage() {
         
         {/* --- PAGE HEADER --- */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="inline-block px-3 py-1 rounded-full bg-[#0d4c4e]/10 text-[#0d4c4e] text-xs font-semibold uppercase tracking-wider mb-3">
+          <span className="text-[#0d4c4e] text-xs font-semibold uppercase tracking-wider mb-3">
             Get In Touch
           </span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-4">
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Email Us</h3>
-                    <p className="text-sm font-medium text-slate-200 mt-0.5">contact@qaas.tech</p>
+                    <p className="text-sm font-medium text-slate-200 mt-0.5">qaas@info.com</p>
                   </div>
                 </div>
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Call Us</h3>
-                    <p className="text-sm font-medium text-slate-200 mt-0.5">+1 (555) 000-1234</p>
+                    <p className="text-sm font-medium text-slate-200 mt-0.5">+252 61 2132059</p>
                   </div>
                 </div>
 

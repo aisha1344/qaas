@@ -104,15 +104,14 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 ">
       
       {/* ─── HERO SECTION: SIDE-BY-SIDE SPLIT LAYOUT ─────────────────────── */}
-      <section className="pt-20 pb-16 px-6 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <section className="pt-20 pb-8 px-6 max-w-6xl mx-auto ">
           
-          <div className="lg:col-span-7">
+          <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
             <span className="text-xs  font-semibold tracking-wider text-emerald-800 uppercase">
               Business Systems & Automation</span>
             
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900 leading-[1.1]">
+            <h1 className="text-4xl sm:text-4xl lg:text-5xl font-medium tracking-tight text-slate-900 leading-[1.1]">
               Smart software & hardware connected for your business.
             </h1>
 
@@ -122,10 +121,10 @@ export default function ServicesPage() {
               and boost daily revenue.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4 items-center">
+            <div className="mt-8 flex flex-wrap gap-4 items-center justify-center">
               <Link
                 href="/contact"
-                className="bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm px-6 py-3.5 rounded-xl shadow-sm transition flex items-center gap-2"
+                className="bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm px-6 py-3.5 rounded-xl shadow-sm transition flex items-center gap-2 "
               >
                 Book a Free Demo
                 <ArrowRight size={16} />
@@ -134,46 +133,8 @@ export default function ServicesPage() {
           </div>
 
           {/* Quick Metrics / Summary Block */}
-          <div className="lg:col-span-5">
-            <div className="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-xl shadow-slate-200/50 space-y-6">
-              <h2 className="text-xs font-bold uppercase tracking-widest text-teal-700 border-b border-slate-100 pb-3">
-                System Capabilities
-              </h2>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-teal-50 text-teal-700 shrink-0 mt-0.5">
-                    <Zap size={18} />
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-800">Instant Order Sync</h3>
-                    <p className="text-xs text-slate-500 mt-0.5">Real-time processing across all devices and terminals.</p>
-                  </div>
-                </div>
+       
 
-                <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-teal-50 text-teal-700 shrink-0 mt-0.5">
-                    <ShieldCheck size={18} />
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-800">Offline Continuity</h3>
-                    <p className="text-xs text-slate-500 mt-0.5">Runs continuously even during local internet outages.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-teal-50 text-teal-700 shrink-0 mt-0.5">
-                    <CheckCircle2 size={18} />
-                  </div>
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-800">Cashier POS Integration</h3>
-                    <p className="text-xs text-slate-500 mt-0.5">Connects with existing registers and hardware seamlessly.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
       </section>
 
       {/* ─── FLAGSHIP SYSTEM: MAREEY TABS & CARD SHOWCASE ──────────────── */}
@@ -211,7 +172,7 @@ export default function ServicesPage() {
                     }`}
                   >
                     <div className="flex items-center gap-3">
-                      <Icon size={20} className={isActive ? "text-teal-300" : "text-teal-700"} />
+                      <Icon size={20} className={isActive ? "text-teal-400" : "text-teal-700"} />
                       <div>
                         <span className={`block text-[10px] font-bold uppercase tracking-wider ${isActive ? "text-teal-300" : "text-slate-500"}`}>
                           {item.role}
@@ -231,10 +192,10 @@ export default function ServicesPage() {
                 <div className="absolute -top-10 -right-10 w-48 h-48 bg-teal-500/20 rounded-full blur-2xl" />
                 
                 <div className="relative z-10">
-                  <div className="inline-block px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-semibold mb-6">
+                  <div className="inline-block px-3 py-1 rounded-full bg-teal-500/20 text-teal-500 text-xs font-semibold mb-6">
                     {MAREEY_FEATURES[activeTab].badge}
                   </div>
-                  <span className="block text-xs font-bold uppercase tracking-widest text-teal-400 mb-1">
+                  <span className="block text-xs font-bold uppercase tracking-widest text-teal-600 mb-1">
                     {MAREEY_FEATURES[activeTab].role}
                   </span>
                   <h3 className="text-2xl font-extrabold text-white mb-4">

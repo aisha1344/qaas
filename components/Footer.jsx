@@ -91,9 +91,9 @@ export default function Footer() {
                 Company
               </h4>
               <ul className="space-y-2.5 text-xs text-slate-500 font-light">
-                <li><Link href="#" className="hover:text-slate-900 transition-colors">About Us</Link></li>
-                <li><Link href="#" className="hover:text-slate-900 transition-colors">Values</Link></li>
-                <li><Link href="#" className="hover:text-slate-900 transition-colors">Careers</Link></li>
+                <li><Link href="#about" className="hover:text-slate-900 transition-colors">About Us</Link></li>
+                <li><Link href="#solutions" className="hover:text-slate-900 transition-colors">Solutions</Link></li>
+                <li><Link href="https://maarey.com/" className="hover:text-slate-900 transition-colors">Products</Link></li>
               </ul>
             </div>
 
@@ -104,8 +104,7 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2.5 text-xs text-slate-500 font-light">
                 <li><Link href="#faq" className="hover:text-slate-900 transition-colors">FAQ</Link></li>
-                <li><Link href="#" className="hover:text-slate-900 transition-colors">Contact Us</Link></li>
-                <li><Link href="#" className="hover:text-slate-900 transition-colors">System Status</Link></li>
+                <li><Link href="/contact" className="hover:text-slate-900 transition-colors">Contact Us</Link></li>
               </ul>
             </div>
           </div>
@@ -130,7 +129,7 @@ export default function Footer() {
 
         {/* --- BOTTOM COPYRIGHT ROW --- */}
         <div className="pt-8 border-t border-slate-200/60 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} Qaas Systems Ltd. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} QAAS Automation & systems. All rights reserved.</p>
           
           <div className="flex gap-6">
             <Link href="#" className="hover:text-slate-600 transition-colors">Privacy Policy</Link>
