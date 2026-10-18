@@ -34,7 +34,7 @@ export default function About() {
                 Bespoke Software & Embedded Systems
               </h3>
               <p className="text-xs sm:text-sm text-emerald-100/70 font-light leading-relaxed">
-                From low-level microcontrollers and custom firmware to highly available cloud API architectures.
+                From low-level micro controllers and custom firmware to highly available cloud API architectures.
               </p>
             </div>
 
@@ -125,7 +125,7 @@ export default function About() {
             <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-2 pt-4 border-t border-slate-300/50 text-xs text-slate-600 font-medium text-center sm:text-left">
               <span>Low-latency hardware communication</span>
               <span className="font-mono text-[#1b3b36] bg-emerald-100/60 px-2 py-0.5 rounded sm:bg-transparent sm:p-0">
-                QAAS-CORE v1.0
+                QAAS v1.0
               </span>
             </div>
 
